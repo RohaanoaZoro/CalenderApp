@@ -1,0 +1,44 @@
+.calender-parent {
+
+    width:91%;
+    margin:auto;
+
+}
+
+.date-container{
+    width:13%;
+    height: 100px;
+    float: left;
+    border: 1px solid #eeeeee;
+}
+
+.date-names{
+    width:100%;
+    text-align: center;
+}
+
+.date-names > p {
+    width:13%;
+    float: left;
+}
+
+.uc-day{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+    color: #555555;
+}
+
+.date-container:hover {
+    box-shadow: 0px 0px 10px 1px #cccccc;
+}
+
+.c-day{
+    text-align: center;
+    color: #ffffff;
+    width:15%;
+    border: 1px solid #0099ff;
+    border-radius: 1em;
+    background-color: #0099ff;
+}
